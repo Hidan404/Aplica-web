@@ -8,6 +8,8 @@ body {
     color: white;
 }
 .container {
+    min-width: 320px ;
+    max-width: 800px ;
     background-color: rgba(0, 0, 0, 0.6);
     border: 2px solid #8B3FFF;
     display: flex;
@@ -57,12 +59,17 @@ fieldset {
 #Enviar {
     background-image: linear-gradient(to right, #462080, #BA8CFF);
     width: 100%;
+    margin: auto;
     padding: 10px;
     font-size: 15px;
     font-weight: 600;
     color: white;
     border-radius: 25px;
 }
+.central {
+    margin: auto;
+}
 #Enviar:hover {
     background-image: linear-gradient(to right, #220d41, #d3b8fb);
+    transition: 5s;
 }
