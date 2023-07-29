@@ -66,6 +66,7 @@ fieldset {
     font-weight: 600;
     color: white;
     border-radius: 25px;
+    cursor: pointer;
 }
 .central {
     margin: auto;
