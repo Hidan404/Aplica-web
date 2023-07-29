@@ -42,6 +42,7 @@ fieldset {
     border: none;
     border-bottom: 1px solid white;
     width: 100%;
+    outline: none;
 }
 .input_data {
     border-radius: 15px;
